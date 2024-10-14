@@ -1,8 +1,8 @@
 
 let products = [
-    { name: 'Producto 1', price: 100 },
-    { name: 'Producto 1', price: 100 },
-    { name: 'Producto 1', price: 100 }
+    { name: 'Producto1', price: 100 },
+    { name: 'Producto2', price: 100 },
+    { name: 'Producto3', price: 100 }
 ];
 
 export const getProducts = () => products;
@@ -12,5 +12,5 @@ export const addProduct = (product) => {
 };
 
 export const deleteProduct = (name) => {
-    products = products.filter(product => product.name !== name);
+    return products = products.filter(product => product.name !== name);
 };
