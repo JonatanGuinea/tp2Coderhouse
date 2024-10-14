@@ -53,6 +53,15 @@ Puedes agregar productos enviando una solicitud POST a
 ```bash
   /products
 ```
+EJEMPLO: 
+
+```bash
+  {
+    "name": "Zapatos Deportivos",
+    "price": 75.99
+}
+
+```
 Puedes eliminar productos enviando una solicitud DELETE a 
 ```bash
   /products/:name.
