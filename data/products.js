@@ -2,7 +2,7 @@
 let products = [
     { name: 'Producto 1', price: 100 },
     { name: 'Producto 1', price: 100 },
-    { name: 'Producto 2', price: 200 }
+    { name: 'Producto 1', price: 100 }
 ];
 
 export const getProducts = () => products;
